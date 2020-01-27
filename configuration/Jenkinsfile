@@ -1,0 +1,4 @@
+build()
+code_analysis()
+deploy dev  
+deploy prod 
