@@ -1,4 +1,10 @@
-build()
-code_analysis()
-deploy dev  
-deploy prod 
+nodeMaven
+{
+    build()
+    code_analysis()
+}
+nodeAnsible
+{
+    deploy dev  
+    deploy prod
+} 
